@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+  aws-project-app:
+    container_name: aws-project-app
+    image: aws-project-app:1
+    restart: always
+    build: ./
+    ports:
+      - "8080:8080"
+
+# docker build -t phone-book-app -f Dockerfile .
+# docker ps
+# docker images -a
+# docker network ls
+# docker run --name phone-book-app -p 8080:8080 phone-book-app
+# docker image rm phone-book-app
+# docker rmi $(docker images -a -q)
+
+# docker-compose up -d
