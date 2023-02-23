@@ -4,31 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c6b2127-eb42-4ec1-9d6f-6fa6ea5f183d" name="Changes" comment="">
+    <list default="true" id="2c6b2127-eb42-4ec1-9d6f-6fa6ea5f183d" name="Changes" comment="added git ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserModule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/UserModule-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/UserModule-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/UserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/advice/GenericAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/advice/GenericAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/advice/exception/GenericException.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/advice/exception/GenericException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/advice/exception/UserNotActiveException.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/advice/exception/UserNotActiveException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/advice/exception/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/advice/exception/UserNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/converter/UserConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/converter/UserConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/dto/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/dto/ErrorResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserCreateDto$UserCreateDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserCreateDto$UserCreateDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserCreateDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserCreateDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserUpdateDto$UserUpdateDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserUpdateDto$UserUpdateDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserUpdateDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/dto/UserUpdateDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/model/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/model/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/model/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModule/target/classes/com/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/classes/com/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserModule/target/UserModule-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserModule/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserModule/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -72,26 +57,26 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "/Users/mustafasabitsipahi/IdeaProjects/AwsProject/UserModule",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "1a4d5a9212fd3d92dc28fd8f0c0e3560"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mustafasabitsipahi/IdeaProjects/AwsProject/UserModule&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1a4d5a9212fd3d92dc28fd8f0c0e3560&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "h2"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/UserModule" />
@@ -113,7 +98,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.UserModule/Dockerfile: Compose Deployment">
+  <component name="RunManager" selected="Docker.Dockerfile: Compose Deployment">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="UserModule" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="UserModule" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -191,7 +189,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.UserModule/Dockerfile: Compose Deployment" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Docker.Dockerfile: Compose Deployment" />
         <item itemvalue="Spring Boot.Application" />
