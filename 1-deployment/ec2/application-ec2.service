@@ -1,0 +1,16 @@
+[Unit]
+Description=AWS Project Application
+SuccessAction=none
+
+[Service]
+SuccessExitStatus=143
+User=root
+
+ExecStart=/opt/com/ec2-application/application.sh
+ExecStop=/bin/kill -13 $MAINPID
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
