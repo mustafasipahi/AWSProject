@@ -1,9 +1,9 @@
-package com2.controller;
+package com.controller;
 
-import com2.dto.UserCreateDto;
-import com2.dto.UserDto;
-import com2.dto.UserUpdateDto;
-import com2.service.UserService;
+import com.dto.UserCreateDto;
+import com.dto.UserDto;
+import com.dto.UserUpdateDto;
+import com.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

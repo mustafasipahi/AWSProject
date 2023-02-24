@@ -1,4 +1,4 @@
-package com2.model;
+package com.model;
 
 import lombok.*;
 

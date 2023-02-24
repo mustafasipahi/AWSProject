@@ -1,13 +1,13 @@
-package com2.service;
+package com.service;
 
-import com2.advice.exception.UserNotActiveException;
-import com2.advice.exception.UserNotFoundException;
-import com2.converter.UserConverter;
-import com2.dto.UserCreateDto;
-import com2.dto.UserDto;
-import com2.dto.UserUpdateDto;
-import com2.model.User;
-import com2.repository.UserRepository;
+import com.advice.exception.UserNotActiveException;
+import com.advice.exception.UserNotFoundException;
+import com.converter.UserConverter;
+import com.dto.UserCreateDto;
+import com.dto.UserDto;
+import com.dto.UserUpdateDto;
+import com.model.User;
+import com.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

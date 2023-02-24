@@ -1,6 +1,6 @@
-package com2.dto;
+package com.dto;
 
-import com2.advice.exception.GenericException;
+import com.advice.exception.GenericException;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

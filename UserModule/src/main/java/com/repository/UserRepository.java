@@ -1,6 +1,6 @@
-package com2.repository;
+package com.repository;
 
-import com2.model.User;
+import com.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

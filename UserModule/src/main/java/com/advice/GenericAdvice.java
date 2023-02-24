@@ -1,8 +1,8 @@
-package com2.advice;
+package com.advice;
 
-import com2.advice.exception.GenericException;
-import com2.advice.exception.UserNotFoundException;
-import com2.dto.ErrorResponse;
+import com.advice.exception.GenericException;
+import com.advice.exception.UserNotFoundException;
+import com.dto.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

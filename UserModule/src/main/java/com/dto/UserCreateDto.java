@@ -1,4 +1,4 @@
-package com2.dto;
+package com.dto;
 
 import lombok.*;
 
@@ -7,7 +7,7 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserUpdateDto {
+public class UserCreateDto {
 
     private String firstName;
     private String lastName;

@@ -1,4 +1,4 @@
-package com2.advice.exception;
+package com.advice.exception;
 
 import org.springframework.http.HttpStatus;
 

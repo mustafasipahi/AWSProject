@@ -1,8 +1,8 @@
-package com2.converter;
+package com.converter;
 
-import com2.dto.UserCreateDto;
-import com2.dto.UserDto;
-import com2.model.User;
+import com.dto.UserCreateDto;
+import com.dto.UserDto;
+import com.model.User;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
