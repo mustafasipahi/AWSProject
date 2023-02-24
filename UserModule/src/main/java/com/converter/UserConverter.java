@@ -1,7 +1,7 @@
 package com.converter;
 
-import com.dto.UserCreateDto;
-import com.dto.UserDto;
+import com.dto.user.UserCreateDto;
+import com.dto.user.UserDto;
 import com.model.User;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
@@ -14,6 +14,7 @@ public class UserConverter {
             .firstName(user.getFirstName())
             .lastName(user.getLastName())
             .email(user.getEmail())
+            .userDetailDtoList(UserDetailConverter.convertToUserDetailDto(user.getUserDetailList()))
             .build();
     }
 

@@ -3,14 +3,15 @@ package com.service;
 import com.advice.exception.UserNotActiveException;
 import com.advice.exception.UserNotFoundException;
 import com.converter.UserConverter;
-import com.dto.UserCreateDto;
-import com.dto.UserDto;
-import com.dto.UserUpdateDto;
+import com.dto.user.UserCreateDto;
+import com.dto.user.UserDto;
+import com.dto.user.UserUpdateDto;
 import com.model.User;
 import com.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -20,11 +21,13 @@ public class UserService {
 
     private final UserRepository userRepository;
 
+    @Transactional
     public UserDto create(UserCreateDto userCreateDto) {
         final User user = UserConverter.convertToUser(userCreateDto);
         return UserConverter.convertToUserDto(userRepository.save(user));
     }
 
+    @Transactional
     public UserDto update(UserUpdateDto userUpdateDto) {
         final User user = findByEmail(userUpdateDto.getEmail());
 
@@ -38,12 +41,14 @@ public class UserService {
         return UserConverter.convertToUserDto(userRepository.save(user));
     }
 
+    @Transactional
     public void updateStatus(Long userId, boolean active) {
         final User user = findById(userId);
         user.setActive(active);
         userRepository.save(user);
     }
 
+    @Transactional
     public void delete(Long userId) {
         final User user = findById(userId);
         userRepository.delete(user);
@@ -60,7 +65,7 @@ public class UserService {
             .collect(Collectors.toList());
     }
 
-    private User findById(Long userId) {
+    protected User findById(Long userId) {
         return userRepository.findById(userId)
             .orElseThrow(UserNotFoundException::new);
     }

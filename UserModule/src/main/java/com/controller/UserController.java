@@ -1,8 +1,8 @@
 package com.controller;
 
-import com.dto.UserCreateDto;
-import com.dto.UserDto;
-import com.dto.UserUpdateDto;
+import com.dto.user.UserCreateDto;
+import com.dto.user.UserDto;
+import com.dto.user.UserUpdateDto;
 import com.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +22,7 @@ public class UserController {
         return ResponseEntity.ok(userService.create(userCreateDto));
     }
 
-    @PutMapping("/update}")
+    @PutMapping("/update")
     public ResponseEntity<UserDto> update(@RequestBody UserUpdateDto userUpdateDto) {
         return ResponseEntity.ok(userService.update(userUpdateDto));
     }
